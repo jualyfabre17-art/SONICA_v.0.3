@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Canciones.Datos\Canciones.Datos.csproj" />
+    <ProjectReference Include="..\Canciones.Entidades\Canciones.Entidades.csproj" />
+  </ItemGroup>
+
+</Project>
