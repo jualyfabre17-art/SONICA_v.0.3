@@ -60,5 +60,19 @@ namespace Canciones.Logica
         {
             return await _repository.ObtenerPorIdAsync(id);
         }
+
+        public async Task<bool> ActualizarAsync(Cancion cancion)
+        {
+            if (cancion.Id <= 0) throw new ArgumentException("ID inválido.");
+            if (string.IsNullOrWhiteSpace(cancion.Tittle)) throw new ArgumentException("El título es obligatorio.");
+            if (string.IsNullOrWhiteSpace(cancion.Artist)) throw new ArgumentException("El artista es obligatorio.");
+            if (string.IsNullOrWhiteSpace(cancion.Genre)) throw new ArgumentException("El género es obligatorio.");
+            await _repository.ActualizarAsync(cancion);
+            return true;
+        }
+
+        
+
+       
     }
 }

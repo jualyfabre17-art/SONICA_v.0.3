@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36915.13 d17.14
+VisualStudioVersion = 17.14.36915.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canciones.Entidades", "Canciones.Entidades\Canciones.Entidades.csproj", "{9BCB4EA8-1D17-4EED-A0EB-A3DEF9609E16}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canciones.Logica", "Canciones.Logica\Canciones.Logica.csproj", "{CA1DDC0F-374D-4D20-9507-D11777C37E2F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canciones.Presentacion", "Canciones.Presentacion\Canciones.Presentacion.csproj", "{4E2A5C4B-BA17-4418-93A8-5A021DCDA234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canciones.PresentacionWPF", "Canciones.PresentacionWPF\Canciones.PresentacionWPF.csproj", "{D80AD58C-A324-4EAF-B363-96C7625BCDDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4E2A5C4B-BA17-4418-93A8-5A021DCDA234}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E2A5C4B-BA17-4418-93A8-5A021DCDA234}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E2A5C4B-BA17-4418-93A8-5A021DCDA234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D80AD58C-A324-4EAF-B363-96C7625BCDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80AD58C-A324-4EAF-B363-96C7625BCDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80AD58C-A324-4EAF-B363-96C7625BCDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80AD58C-A324-4EAF-B363-96C7625BCDDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -135,6 +135,8 @@ namespace Canciones.Datos
             return song;
         }
 
+        
+
         // Método privado de mapeo (evita repetición)
         private Cancion MapToCancion(SqlDataReader reader)
         {
